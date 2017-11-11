@@ -1,0 +1,14 @@
+body {
+	background-color: #FC0;
+}
+#cat1 {
+	max-width: 58%;
+}
+#cat2 {
+	max-width: 41%;
+}
+.img {
+    animation:spin 4s linear infinite;
+    filter: invert(100%);
+}
+@keyframes spin { 100% { transform: rotate(360deg); } }
